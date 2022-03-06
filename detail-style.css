@@ -1,0 +1,256 @@
+
+
+
+
+
+.bg-image{
+    position: absolute;
+    background-image:url(./images/film7.jpg) ;
+    width: 99%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index:0;
+    filter:blur(8px);
+    -webkit-filter:blur(8px);
+}
+.movie-info{
+    position: relative;
+    background-image: linear-gradient(rgba(119, 108, 108, 0.445),rgba(173, 141, 141, 0.5) );
+    margin:0;
+    height: 450px;
+    z-index:0;
+}
+.image-pos{
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+
+.movie-name{
+    position: relative;
+    font-size: 30px;
+    color: rgba(245, 245, 220, 0);
+    top:20px;
+    right:60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.item-share{
+    color: antiquewhite;
+}
+.movie-summury-text{
+    font-size: 13px;
+}
+.movie-select-box{
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%);
+    height: 150px;
+    justify-content: space-around;
+    margin-left: 100px !important;
+    
+    
+}
+.movie-details-header{
+    height: 1000px;
+    border-bottom: 1px solid #00000021;
+}
+.movie-cinema{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 1px !important;
+    padding-top: 1px;
+}
+.select-cinemas{
+    width: 30% !important;
+    margin-left: 10px !important;
+    margin-top: 25px;
+   
+
+}
+.input-box-items{
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid #00000041;
+}
+.btn{
+    width: 200px;
+    background: linear-gradient();
+    height: 48px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: none !important;
+}
+.btn-ticket:hover{
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%) !important;
+}
+.border-bottom-line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233) !important;
+    color: #3533346b;
+}
+
+.write-comment{
+    height: 263px !important;
+   
+}
+.comment-form{
+    height: 263px;
+    background-color : rgba(0, 0, 0, 0.034) !important; 
+    border: none;
+  
+}
+.form-control{
+   height: 263px ; 
+   background-color : rgba(0, 0, 0, 0.034) !important; 
+   border: none;
+}
+
+.form-button{
+    margin-left: 430px;
+    /* background-color:  rgba(0, 0, 0, 0.233); */
+    display: table;
+    
+}
+.post-message{
+    height: 50px;
+    width: 100% !important;
+    background-color: black;
+    color: white;
+}
+.post-message:hover{
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%) !important;
+}
+
+
+/* 
+========================
+******CARD-SLİDER*******
+======================== */
+
+.card-slider-movie{
+    margin-top: 100px !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+}
+.slide-container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(13deg, #ec2938 0%, #e6017c 99%) !important;
+}
+.image-slider{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+
+}
+.slider-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px ;
+}
+.img{
+    position: relative;
+    width: 240px;
+    height: 370px;
+    transition: .5s;
+    filter: saturate(10%);
+    
+}
+
+.button{
+    position: absolute;
+    width: 240px;
+    height: 370px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, .4);
+}
+.button:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+
+#slider-span7:target ~ .image-slider #img7,
+#slider-span7:target ~ .image-slider #button-7{
+    width: 380px;
+    height: 500px;
+    background-color: transparent;
+    filter: saturate(100%);
+    
+}
+#slider-span1:target ~ .image-slider{ left: 70%;  }
+#slider-span2:target ~ .image-slider{ left: 50%;  }
+#slider-span3:target ~ .image-slider{ left: 25%;  }
+#slider-span5:target ~ .image-slider{ left: -25%;  }
+#slider-span6:target ~ .image-slider{ left: -50%;  }
+#slider-span7:target ~ .image-slider{ left: -75%;  }
+
